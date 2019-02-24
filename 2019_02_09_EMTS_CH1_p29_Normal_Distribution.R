@@ -9,7 +9,7 @@
 #
 #=======================================================================
 
-# Assume that ¥ò2 = 1.
+# Assume that Â¥Ã²2 = 1.
 # A sample of T = 5 observations consisting of the values {1, 2, 5, 1, 2}
 # p15
 
@@ -81,6 +81,8 @@ cat(ifelse(g < tol,0.0,g), '\n')
 
 # Evaluate the Hessian at the MLE  for each obs
 h <- -t
+
+
 
 cat('\nHessian of the log likelihood at MLE\n')
 cat('------------------------------------\n')
